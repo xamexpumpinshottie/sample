@@ -1,9 +1,9 @@
 <?php require_once('header.php'); ?>
 <?php
-$host = 'your_database_host';
-$db_name = 'your_database_name';
-$username = 'your_username';
-$password = 'your_password';
+$host = 'database-1.c9siewsqc1n2.us-east-2.rds.amazonaws.com';
+$db_name = 'database-1';
+$username = 'postgres';
+$password = 'vkcLNC95qyNNmTfC7jDq';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db_name", $username, $password);
